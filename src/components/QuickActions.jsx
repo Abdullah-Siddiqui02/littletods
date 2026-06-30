@@ -37,7 +37,7 @@ export default function QuickActions({
             <div className="qa-info">
               <h3 className="qa-title">Operating Hours</h3>
               <p className="qa-value">Mon - Fri</p>
-              <p className="qa-subtext">10:00 AM - 2:00 PM</p>
+              <p className="qa-subtext">9:00 AM - 5:00 PM</p>
             </div>
           </div>
 

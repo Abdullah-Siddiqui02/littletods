@@ -87,7 +87,7 @@ export default function Footer({
 
               <div className="footer-contact-item">
                 <Clock size={16} className="footer-contact-icon" />
-                <span>Mon – Sat: 9:00 AM – 5:00 PM</span>
+                <span>Mon – Fri: 9:00 AM – 2:00 PM</span>
               </div>
 
             </div>

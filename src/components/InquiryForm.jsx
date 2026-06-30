@@ -257,7 +257,7 @@ export default function InquiryForm({
               </div>
               <div className="cd-info">
                 <span className="cd-label">School Timings</span>
-                <span className="cd-value">Mon – Sat: 9:00 AM – 5:00 PM</span>
+                <span className="cd-value">Mon – Fri: 9:00 AM – 2:00 PM</span>
               </div>
             </div>
 
