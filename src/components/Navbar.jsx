@@ -44,22 +44,11 @@ export default function Navbar() {
         <div className="navbar-container">
           {/* Logo & Brand Name */}
           <a href="#" className="navbar-brand" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-            <svg className="navbar-logo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <circle cx="50" cy="50" r="45" fill="var(--color-bg-soft)" />
-              {/* Teddy Bear Head */}
-              <circle cx="50" cy="52" r="22" fill="var(--color-primary)" />
-              {/* Ears */}
-              <circle cx="32" cy="35" r="9" fill="var(--color-primary)" />
-              <circle cx="32" cy="35" r="5" fill="var(--color-bg-soft)" />
-              <circle cx="68" cy="35" r="9" fill="var(--color-primary)" />
-              <circle cx="68" cy="35" r="5" fill="var(--color-bg-soft)" />
-              {/* Snout */}
-              <circle cx="50" cy="58" r="8" fill="var(--color-accent)" />
-              <polygon points="50,55 46,58 54,58" fill="var(--color-text-main)" />
-              {/* Eyes */}
-              <circle cx="43" cy="48" r="2.5" fill="var(--color-text-main)" />
-              <circle cx="57" cy="48" r="2.5" fill="var(--color-text-main)" />
-            </svg>
+            <img 
+              src="/logo.png" 
+              alt="Little Todd's Logo" 
+              className="navbar-logo"
+            />
             <div className="navbar-title-group">
               <span className="navbar-title">Little Todd's</span>
               <span className="navbar-subtitle">PLAY GROUP & NURSERY</span>
