@@ -5,6 +5,7 @@ import QuickActions from './components/QuickActions';
 import AboutUs from './components/AboutUs';
 import Programs from './components/Programs';
 import WhyChooseUs from './components/WhyChooseUs';
+import Facilities from './components/Facilities';
 import FloatingActions from './components/FloatingActions';
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
 
         {/* Section 4: Why Choose Us */}
         <WhyChooseUs />
+
+        {/* Section 5: Facilities */}
+        <Facilities />
 
         <section id="inquiry" style={{ padding: '80px 20px', minHeight: '800px', backgroundColor: 'var(--color-bg-primary)' }}>
           <div className="container" style={{ textAlign: 'center' }}>
