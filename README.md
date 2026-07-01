@@ -11,7 +11,7 @@ A premium, modern, and highly interactive landing page for **Little Todd's Play 
 ---
 
 ## 🔗 Live Demo
-🌐 [Live Demo Link](https://littletodds.vercel.app) *(Update this placeholder link with your deployed Vercel domain)*
+🌐 Live Demo https://littletods.vercel.app/
 
 ---
 
