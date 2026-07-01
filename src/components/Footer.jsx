@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Clock, ArrowUp } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 export default function Footer({
   phoneNumber = "+919175705175",
@@ -13,10 +13,6 @@ export default function Footer({
     { label: "Facilities", href: "#facilities" },
     { label: "Contact", href: "#inquiry" }
   ];
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   return (
     <footer className="site-footer">
@@ -100,22 +96,9 @@ export default function Footer({
           <p className="footer-copyright">
             © {new Date().getFullYear()} Little Todd's Play Group & Nursery. All rights reserved.
           </p>
-          <p className="footer-credit">
-            Designed with ❤️ for Little Todd's
-          </p>
         </div>
 
       </div>
-
-      {/* Scroll to Top Button */}
-      <button
-        className="scroll-top-btn"
-        onClick={scrollToTop}
-        aria-label="Scroll to top"
-        title="Back to top"
-      >
-        <ArrowUp size={20} />
-      </button>
     </footer>
   );
 }
